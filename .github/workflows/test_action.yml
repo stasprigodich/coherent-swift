@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: arthurpalves/coherent-swift@main
+    - uses: stasprigodich/coherent-swift@main
       with:
         sources: Sources/
         minimum_threshold: 60
